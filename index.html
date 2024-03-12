@@ -49,7 +49,7 @@
     <!-- Métadonnées Twitter Cards -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:url" content="https://github.com/KillianG0/ninacarducci.github.io-main/" />
-    <meta name="twitter:title" content="Nina Carducci, photographe professionnelle basée à Bordeaux" />
+    <meta name="twitter:title" content="Nina Carducci" />
     <meta name="twitter:description" content="Photographe portraits & événementiel " />
     <meta name="twitter:image" content="https://github.com/KillianG0/ninacarducci.github.io-main/assets/images/nina.webp" />
   </head>
@@ -357,11 +357,13 @@
     <script src="./assets/scripts.js"></script>
     <script type="application/ld+json">
       {
-        "@context": "http://schema.org",
-        "@type": "PhotographieStudio",
-        "image": "https://github.com/KillianG0/ninacarducci.github.io-main/assets/images/nina.webp",
-        "name": "NinaCarducci",
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci Photographe",
+        "image": "https://github.com/KillianG0/ninacarducci.github.io-main/assets/images/nina.webp\"",
+        "@id": "https://killiang0.github.io/ninacarducci.github.io-main/",
         "url": "https://killiang0.github.io/ninacarducci.github.io-main/",
+        "telephone": "05 56 67 78 89",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "68 avenue Alsace-Lorraine",
@@ -369,15 +371,21 @@
           "postalCode": "33200",
           "addressCountry": "France"
         },
-        "telephone": "05 56 67 78 89",
-        "openingHours": [
-          "Lundi au Vendredi 10:00-19:00"
-        ],
-        "founder": {
-          "@type": "Person",
-          "name": "Nina Carducci",
-          "jobTitle": "Photographe"
-        }
+        "priceRange": "50-400€",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ]
       }
       </script>
   </body>
