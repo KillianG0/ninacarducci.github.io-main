@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/minstyle.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
+    //
     <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -22,22 +24,34 @@
       crossorigin="anonymous"
     ></script>
     <!-- Métadonnées OpenGraph pour Facebook -->
-    <meta property="og:title" content="Nina Carducci, photographe professionnelle basée à Bordeaux">
-    <meta property="og:locale" content="fr_FR">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://github.com/KillianG0/ninacarducci.github.io-main/">
-    <meta property="og:author" content="Nina Carducci">
-    <meta property="og:description" content="Capturer les moments les plus précieux de votre vie avec créativité et passion. Photographe professionnelle basée à Bordeaux, spécialisée dans les portraits, les mariages et les événements. Des images authentiques et intemporelles qui racontent votre histoire. Réservez votre séance photo dès maintenant !">
-    <meta property="og:image" content="">
+    <meta
+      property="og:title"
+      content="Nina Carducci, photographe professionnelle basée à Bordeaux"
+    />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://github.com/KillianG0/ninacarducci.github.io-main/"
+    />
+    <meta property="og:author" content="Nina Carducci" />
+    <meta
+      property="og:description"
+      content="Photographe portraits & événementiel"
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/KillianG0/ninacarducci.github.io-main/assets/images/nina.webp"
+    />
     <meta property="og:image:width" content="1200px" />
     <meta property="og:image:height" content="630px" />
 
     <!-- Métadonnées Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@votrenomdetwitter" />
-    <meta name="twitter:title" content="Titre de votre contenu" />
-    <meta name="twitter:description" content="Description de votre contenu" />
-    <meta name="twitter:image" content="URL_de_votre_image" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://github.com/KillianG0/ninacarducci.github.io-main/" />
+    <meta name="twitter:title" content="Nina Carducci, photographe professionnelle basée à Bordeaux" />
+    <meta name="twitter:description" content="Photographe portraits & événementiel " />
+    <meta name="twitter:image" content="https://github.com/KillianG0/ninacarducci.github.io-main/assets/images/nina.webp" />
   </head>
   <body>
     <header>
@@ -345,6 +359,7 @@
       {
         "@context": "http://schema.org",
         "@type": "PhotographieStudio",
+        "image": "./assets/images/nina.webp",
         "name": "NinaCarducci",
         "address": {
           "@type": "PostalAddress",
@@ -354,8 +369,10 @@
           "addressCountry": "France"
         },
         "telephone": "05 56 67 78 89",
-        "openingHours": "Horaires d'ouverture",
-        "image": "URL_de_votre_image_de_référence",
+        "openingHours": [
+			  "Lundi au Vendredi 10:00-19:00"
+		     ]
+        "image": "./assets/images/nina.webp",
         "founder": {
           "@type": "Person",
           "name": "Nina Carducci",
